@@ -1,0 +1,102 @@
+ul {
+  list-style-type: none; /* removes the dots */
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background: #b530c7;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: rgb(236, 230, 230);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+input[type="date"] {
+  padding: 10px;
+  margin-top: 3px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background: #f6afff;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+li span {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 200px;
+  display: inline-block;
+  flex: 1;
+}
+
+.delete-btn,
+.edit-btn,
+.complete-btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%; /* round button */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px; /* icon size */
+  cursor: pointer;
+  border: none;
+}
+
+/* Individual button colors */
+.delete-btn {
+  background: red;
+  color: white;
+}
+
+.edit-btn {
+  background: #b530c7;
+  color: white;
+}
+
+.complete-btn {
+  background: green;
+  color: white;
+}
+
+
+.overdue {
+  background: #ffcccc !important;
+  color: red;
+  font-weight: bold;
+}
